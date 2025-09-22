@@ -1,5 +1,8 @@
 import express from 'express';
-import login from './controllers/login.js'
+import login from './controllers/login.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 
