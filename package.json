@@ -19,5 +19,9 @@
   "homepage": "https://github.com/paulo-pires-br/api-node#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2"
   }
 }
