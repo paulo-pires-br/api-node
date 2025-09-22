@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/paulo-pires-br/api-node/issues"
   },
-  "homepage": "https://github.com/paulo-pires-br/api-node#readme"
+  "homepage": "https://github.com/paulo-pires-br/api-node#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
