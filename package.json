@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
- "scripts": {
+  "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "watch": "tsc --watch",
@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/paulo-pires-br/api-node#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mysql2": "^3.15.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.27"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
