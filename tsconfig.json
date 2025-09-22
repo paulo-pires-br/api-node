@@ -7,7 +7,12 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
+    //ATENCAO: ORIGINAL: "module": "nodenext",
+    //ATENCAO: Ajustei para module para:
+    // "module": "esnext",
     "module": "nodenext",
+    //ATENCAO:  O original nao tinha moduleResolution
+    // "moduleResolution": "Bundler",
     "target": "esnext",
     "types": [],
     // For nodejs:
